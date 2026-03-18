@@ -20,8 +20,6 @@ public class EmployeeController {
 	private EmployeeService employeeService;
 	
 	
-	
-	
 	@RequestMapping(value = "/")
 	private String handleFirstRequest() {
 		return "index";
