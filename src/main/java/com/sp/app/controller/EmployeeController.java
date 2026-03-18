@@ -18,15 +18,19 @@ public class EmployeeController {
 	
 	@Autowired
 	private EmployeeService employeeService;
-	
-	
+		
 	@RequestMapping(value = "/")
-	private String handleFirstRequest() {
+	private String handleFirstRequest1() {
 		System.out.println("Github");
 		return "index";
 	}
 	
 	
+	
+	@RequestMapping(value = "/")
+	private String handleFirstRequest() {
+		return "index";
+	}
 	
 	@RequestMapping(value = "/reg")
 	private String handleRegRequest() {
