@@ -22,8 +22,11 @@ public class EmployeeController {
 	
 	@RequestMapping(value = "/")
 	private String handleFirstRequest() {
+		System.out.println("Github");
 		return "index";
 	}
+	
+	
 	
 	@RequestMapping(value = "/reg")
 	private String handleRegRequest() {
