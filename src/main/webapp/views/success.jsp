@@ -29,16 +29,9 @@
 
 </head>
 <body>
-
-<<<<<<< HEAD
      <h1 align="center">WELCOME TO SUCCESS PAGE...!</h1>
      
-     <% List<Employee> empList = (List<Employee>) request.getAttribute("data"); %>
-=======
-     <h1>WELCOME TO SUCCESS PAGE...!</h1>
-     
-     <% List<Employee> empList =  (List<Employee>) request.getAttribute("data"); %>
->>>>>>> 475e3669c838e8d66c7d112a081e4fa05f90516f
+     <% List<Employee> empList = (List<Employee>) request.getAttribute("data"); %>     
      
      <div align="center">
         <form name="myForm">

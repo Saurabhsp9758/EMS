@@ -21,14 +21,6 @@ public class EmployeeController {
 		
 	@RequestMapping(value = "/")
 	private String handleFirstRequest1() {
-		System.out.println("Github");
-		return "index";
-	}
-	
-	
-	
-	@RequestMapping(value = "/")
-	private String handleFirstRequest() {
 		return "index";
 	}
 	
